@@ -1,0 +1,182 @@
+[
+    {
+        "id": "Interior-01",
+        "titulo": "Interior 01",
+        "imagen": "/images/interior/01.jpg",
+        "categoria": {
+            "nombre": "Interior",
+            "id": "Interior"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "Interior-02",
+        "titulo": "Interior 02",
+        "imagen": "./images/interior/02.jpg",
+        "categoria": {
+            "nombre": "Interior",
+            "id": "Interior"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "Interior-03",
+        "titulo": "Interior 03",
+        "imagen": "./images/Interior/03.jpg",
+        "categoria": {
+            "nombre": "Interior",
+            "id": "Interior"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "Interior-04",
+        "titulo": "Interior 04",
+        "imagen": "./images/Interior/04.jpg",
+        "categoria": {
+            "nombre": "Interior",
+            "id": "Interior"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "Interior-05",
+        "titulo": "Interior 05",
+        "imagen": "./images/Interior/05.jpg",
+        "categoria": {
+            "nombre": "Interior",
+            "id": "Interior"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "Exterior-01",
+        "titulo": "Exterior 01",
+        "imagen": "./images/Exterior/01.jpg",
+        "categoria": {
+            "nombre": "Exteriores",
+            "id": "Exteriores"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "Exterior-02",
+        "titulo": "Exterior 02",
+        "imagen": "./images/Exterior/02.jpg",
+        "categoria": {
+            "nombre": "Exteriores",
+            "id": "Exteriores"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "Exterior-03",
+        "titulo": "Exterior 03",
+        "imagen": "./images/Exterior/03.jpg",
+        "categoria": {
+            "nombre": "Exteriores",
+            "id": "Exteriores"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "Exterior-04",
+        "titulo": "Exterior 04",
+        "imagen": "./images/Exterior/04.jpg",
+        "categoria": {
+            "nombre": "Exteriores",
+            "id": "Exteriores"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "Exterior-05",
+        "titulo": "Exterior 05",
+        "imagen": "./images/Exterior/05.jpg",
+        "categoria": {
+            "nombre": "Exteriores",
+            "id": "Exteriores"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "Exterior-06",
+        "titulo": "Exterior 06",
+        "imagen": "./images/Exterior/06.jpg",
+        "categoria": {
+            "nombre": "Exteriores",
+            "id": "Exteriores"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "Exterior-07",
+        "titulo": "Exterior 07",
+        "imagen": "./images/Exterior/07.jpg",
+        "categoria": {
+            "nombre": "Exteriores",
+            "id": "Exteriores"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "Exterior-08",
+        "titulo": "Exterior 08",
+        "imagen": "./images/Exterior/08.jpg",
+        "categoria": {
+            "nombre": "Exteriores",
+            "id": "Exteriores"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "Brotes-Arboles-01",
+        "titulo": "Brotes-Arboles 01",
+        "imagen": "./images/Brotes/01.jpg",
+        "categoria": {
+            "nombre": "Brotes",
+            "id": "Brotes"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "Brotes-Arboles-02",
+        "titulo": "Brotes-Arboles 02",
+        "imagen": "./images/Brotes/02.jpg",
+        "categoria": {
+            "nombre": "Brotes",
+            "id": "Brotes"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "Brotes-Arboles-03",
+        "titulo": "Brotes-Arboles 03",
+        "imagen": "./images/Brotes/03.jpg",
+        "categoria": {
+            "nombre": "Brotes",
+            "id": "Brotes"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "Brotes-Arboles-04",
+        "titulo": "Brotes-Arboles 04",
+        "imagen": "./images/Brotes/04.jpg",
+        "categoria": {
+            "nombre": "Brotes",
+            "id": "Brotes"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "Brotes-Arboles-05",
+        "titulo": "Brotes-Arboles 05",
+        "imagen": "./images/Brotes/05.jpg",
+        "categoria": {
+            "nombre": "Brotes",
+            "id": "Brotes"
+        },
+        "precio": 1000
+    }
+]
