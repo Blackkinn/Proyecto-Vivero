@@ -1,27 +1,32 @@
 <?php
-include 'conexion.php';
+session_start();
+require_once 'conexion.php';
 
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    $email = $_POST['email'];
-    $contraseña = $_POST['contraseña'];
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+    $correo = $_POST['correo'] ?? '';
+    $contrasena = $_POST['contrasena'] ?? '';
 
-    $sql = "SELECT * FROM usuarios WHERE email='$email'";
-    $resultado = $conn->query($sql);
+    $stmt = $pdo->prepare("SELECT * FROM usuarios WHERE correo = ?");
+    $stmt->execute([$correo]);
+    $usuario = $stmt->fetch(PDO::FETCH_ASSOC);
 
-    if ($resultado->num_rows > 0) {
-        $usuario = $resultado->fetch_assoc();
-        if (password_verify($contraseña, $usuario['contraseña'])) {
-            session_start();
-            $_SESSION['usuario'] = $usuario['nombre'];
-            $_SESSION['email'] = $usuario['email'];
-            echo "Inicio de sesión exitoso";
-        } else {
-            echo "Contraseña incorrecta";
-        }
+    if ($usuario && password_verify($contrasena, $usuario['contrasena'])) {
+        
+        $_SESSION['rol'] = $usuario['rol']; // 'admin' o 'usuario'
+
+        // Guardamos los datos en la sesión
+        $_SESSION['usuario_id'] = $usuario['id'];
+        $_SESSION['usuario_nombre'] = $usuario['nombre'];
+        $_SESSION['usuario_correo'] = $usuario['correo'];
+
+    
+        header("Location: /Proyecto-Vivero/index.php");
+
+        exit();
     } else {
-        echo "Usuario no encontrado";
+        echo "❌ Correo o contraseña incorrectos.";
     }
+} else {
+    echo "❌ Método no permitido.";
 }
 
-$conn->close();
-?>

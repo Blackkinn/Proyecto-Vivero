@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Registro</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Proyecto-Vivero/css/estilos.css">
+</head>
+<body class="login-body">
+
+    <div class="login-container">
+        <h1 class="login-title">📝 Crear Cuenta</h1>
+
+        
+        <form action="../php/registro.php" method="post" class="login-form">
+
+            <label for="nombre">Nombre completo:</label>
+            <input type="text" name="nombre" id="nombre" required>
+
+            <label for="correo">Correo electrónico:</label>
+            <input type="email" name="correo" id="correo" required>
+
+            <label for="contrasena">Contraseña:</label>
+            <input type="password" name="contrasena" id="contrasena" required>
+
+            <label for="confirmar">Confirmar contraseña:</label>
+            <input type="password" name="confirmar" id="confirmar" required>
+
+            <button type="submit" class="btn login-btn">Registrarse</button>
+        </form>
+
+        <div class="login-links">
+            <a href="login.html">¿Ya tienes cuenta? Inicia sesión</a><br>
+            <a href="/Proyecto-Vivero/index.php">🏠 Volver al inicio</a>
+
+        </div>
+    </div>
+
+</body>
+</html>

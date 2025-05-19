@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Iniciar Sesión</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Proyecto-Vivero/css/estilos.css">
+
+</head>
+<body class="login-body">
+
+    <div class="login-container">
+        <h1 class="login-title">🔐 Iniciar Sesión</h1>
+        <form action="/Proyecto-Vivero/php/login.php" method="post" class="login-form">
+            <label for="correo">Correo electrónico:</label>
+            <input type="email" name="correo" id="correo" required>
+        
+            <label for="contrasena">Contraseña:</label>
+            <input type="password" name="contrasena" id="contrasena" required>
+        
+            <button type="submit" class="btn login-btn">Ingresar</button>
+        </form>
+        
+        <div class="login-links">
+            <a href="/Proyecto-Vivero/html/registro.html">¿No tienes cuenta? Regístrate</a><br>
+            <a href="/Proyecto-Vivero/index.php">🏠 Volver al inicio</a>
+        </div>
+        
+</form>
+        </div>
+    </div>
+
+</body>
+</html>
+
